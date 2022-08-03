@@ -63,7 +63,7 @@ for dir  in os.scandir() :
             os.getcwd() + '/Other_Folder/'+ str(path(dir))
             
     except ValueError:
-        print ("Failed to creat new directory called Other Folder may already exist.")
+        print ("Failed to create new directory called Other Folder may already exist.")
         
 if __name__ =="_main_": 
     
